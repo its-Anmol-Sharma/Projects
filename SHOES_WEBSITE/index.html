@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karma Shop</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="https://preview.colorlib.com/theme/karma/img/fav.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl Crousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Personal Style -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section class="fixed-top bg-white shadow" style="width: 100vw;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://preview.colorlib.com/theme/karma/img/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item p-2">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+
+                            <li class="nav-item dropdown p-2">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    SHOP
+                                </a>
+                                <ul class="rounded-0 border-0 dropdown-menu p-0">
+                                    <li><a class="dropdown-item" href="category.html">SHOP CATEGORY</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="single-product.html">PRODUCT DETAILS</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="checkout.html">PRODUCT CHECKOUT</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="cart.html">SHOPPING CART</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="confimation.html">CONFIRMATION</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown  p-2">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    BLOG
+                                </a>
+                                <ul class="rounded-0 border-0 dropdown-menu p-0">
+                                    <li><a class="dropdown-item" href="blog.html">BLOG</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="blog.html">BLOG DETAILS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown  p-2">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PAGES
+                                </a>
+                                <ul class="rounded-0 border-0 dropdown-menu p-0">
+                                    <li><a class="dropdown-item" href="#">LOGIN</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">TRACKING</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">ELEMENTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item  p-2">
+                                <a class="nav-link" href="contect.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item d-flex justify-content-center align-items-center  p-2">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping text-dark"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex justify-content-center align-items-center  p-2">
+                                <a href="#">
+                                    <i class="fa-solid fa-magnifying-glass text-dark"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </section>
+
+    <!-- Banner in Background -->
+    <div class="banner-back" style="height: 100vh;">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="container d-flex justify-content-start align-items-center" style="height: 100vh;">
+                    <div class="col-lg-5 col-md-12 col-sm-12" style="height: 100%;">
+                        <div class="d-flex flex-column justify-content-center m-auto w-100" style="height: 100%;">
+                            <h1 class="mb-5" style="font-size: 68px; font-weight: 700; color: black;">Nike New<br>
+                                Collection!</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                            </p>
+                            <div class="">
+                                <a href="" class="d-flex">
+                                    <i class="fa-solid fa-plus rounded-circle d-flex justify-content-center align-items-center"
+                                        style="color: #ffffff; height: 50px; width: 50px; background: linear-gradient(to right, yellow, orange);"></i>
+                                    <p class="d-flex align-items-center"
+                                        style="color: black; margin: auto; margin-left: 10px;">
+                                        ADD TO BAG</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hide-img col-lg-7 d-flex justify-content-center align-items-center" style="height: 100%;">
+                        <img src="https://preview.colorlib.com/theme/karma/img/banner/banner-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container d-flex" style="height: 100vh;">
+                    <div class="col-lg-5 col-md-12 col-sm-12" style="height: 100%;">
+                        <div class="d-flex flex-column justify-content-center m-auto w-100" style="height: 100%;">
+                            <h1 class="mb-5" style="font-size: 68px; font-weight: 700; color: black;">Nike New<br>
+                                Collection!</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                            </p>
+                            <div class="">
+                                <a href="" class="d-flex">
+                                    <i class="fa-solid fa-plus rounded-circle d-flex justify-content-center align-items-center"
+                                        style="color: #ffffff; height: 50px; width: 50px; background: linear-gradient(to right, yellow, orange);"></i>
+                                    <p class="d-flex align-items-center"
+                                        style="color: black; margin: auto; margin-left: 10px;">
+                                        ADD TO BAG</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hide-img col-lg-7 d-flex justify-content-center align-items-center" style="height: 100%;">
+                        <img src="https://preview.colorlib.com/theme/karma/img/banner/banner-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="container shadow features" style="margin-top: 100px;">
+        <div class="row">
+            <div class="feature-item col-lg-3 col-md-6 col-sm-6 mt-5 mb-5 text-center border-end">
+                <i class="fa-solid fa-truck"></i>
+                <h6>Free Delivery</h6>
+                <p>Free Shipping on all order</p>
+            </div>
+            <div class="feature-item col-lg-3 col-md-6 col-sm-6 mt-5 mb-5 text-center border-end">
+                <i class="fa-solid fa-rotate"></i>
+                <h6>Return Policy</h6>
+                <p>Free Shipping on all order</p>
+            </div>
+            <div class="feature-item col-lg-3 col-md-6 col-sm-6 mt-5 mb-5 text-center border-end">
+                <i class="fa-solid fa-headset"></i>
+                <h6>24/7 Support</h6>
+                <p>Free Shipping on all order</p>
+            </div>
+            <div class="feature-item col-lg-3 col-md-6 col-sm-6 mt-5 mb-5 text-center">
+                <i class="fa-solid fa-database"></i>
+                <h6>Secure Payment</h6>
+                <p>Free Shipping on all order</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Sales -->
+    <div class="container sales" style="margin-top: 100px;">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 justify-content-center">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 p-3">
+                        <div class="bg-image hover-overlay ripple shadow-l-strong ripple-surface-light">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c1.jpg" alt=""
+                            class="img-fluid w-100">
+                            <a href="">
+                                <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5);">
+                                    <h6 class="m-0">SNEAKER FOR SPORTS</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 p-3">
+                        <div class="bg-image hover-overlay ripple shadow-l-strong ripple-surface-light">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c2.jpg" alt=""
+                            class="img-fluid w-100">
+                            <a href="">
+                                <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5);">
+                                    <h6 class="m-0">SNEAKER FOR SPORTS</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 p-3">
+                        <div class="bg-image hover-overlay ripple shadow-l-strong ripple-surface-light">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c3.jpg" alt=""
+                            class="img-fluid w-100">
+                            <a href="">
+                                <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5);">
+                                    <h6 class="m-0">PRODUCT FOR COUPLE</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 p-3">
+                        <div class="bg-image hover-overlay ripple shadow-l-strong ripple-surface-light">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c4.jpg" alt=""
+                            class="img-fluid w-100">
+                            <a href="">
+                                <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5);">
+                                    <h6 class="m-0">SNEAKER FOR SPORTS</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                <div class="bg-image hover-overlay ripple shadow-l-strong ripple-surface-light">
+                    <img src="https://preview.colorlib.com/theme/karma/img/category/c5.jpg" alt=""
+                    class="img-fluid w-100">
+                    <a href="">
+                        <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <h6 class="m-0">SNEAKER FOR SPORTS</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Products -->
+    <section style="margin-top: 100px;" class="products">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="container text-center">
+                    <h2>Latest Products</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur. Quas sequi repudiandae, aperiam earum ducimus<br>vero
+                        est facere quo natus voluptatibus.</p>
+                    <div class="row mt-5">
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p1.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p2.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p3.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p4.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p5.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p6.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p7.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p8.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container text-center">
+                    <h2>Coming Products</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur. Quas sequi repudiandae, aperiam earum ducimus<br>vero
+                        est facere quo natus voluptatibus.</p>
+                    <div class="row mt-5">
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p6.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p8.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p3.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p3.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p1.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p4.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p1.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-start p-3">
+                            <img src="https://preview.colorlib.com/theme/karma/img/product/p8.jpg" alt=""
+                                class="img-fluid">
+                            <h5>ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                            <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                            <div class="d-flex">
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">ADD TO BAG</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-regular fa-heart rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">WISHLIST</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-rotate rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">COMPARE</p>
+                                    </a>
+                                </div>
+                                <div class="item d-flex product-icons">
+                                    <a href="#" class="d-flex">
+                                        <i class="fa-solid fa-up-down-left-right rounded-circle p-2 m-1"
+                                            style="color: #ffffff; background-color: #828bb2;"></i>
+                                        <p class="m-auto">VIEW MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals -->
+    <section style="margin-top: 100px;" class="exclusive-deals d-block">
+        <div class="row m-0">
+            <div class="background-img text-white col-lg-6 d-flex flex-column m-auto justify-content-center align-items-center p-0"
+                style="height: 130vh;">
+                <h2 class="fs-1">Exclusive Hot Deal Ends Soon!</h2>
+                <p class="text-white">Who are in extremely love with eco friendly system.</p>
+                <div class="clock">
+                    <div class="">
+                        <div id="countdown" class="d-flex time text-black bg-white rounded text-center p-3">
+                            <div class="item-time border-end m-1 pe-3 ms-3">
+                                <span id="days" class="fs-1"></span><br>Days
+                            </div>
+                            <div class="item-time border-end m-1 pe-3 ms-3">
+                                <span id="hours" class="fs-1"></span><br>Hours
+                            </div>
+                            <div class="item-time border-end m-1 pe-3 ms-3">
+                                <span id="minutes" class="fs-1"></span><br>Mins
+                            </div>
+                            <div class="item-time m-1 pe-3 ms-3">
+                                <span id="seconds" class="fs-1"></span><br>Secs
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="col-lg-6 d-flex flex-column m-auto justify-content-center align-items-center text-center p-0" style="height: 130vh;">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="https://preview.colorlib.com/theme/karma/img/product/e-p1.png" alt=""
+                            class="img-fluid m-auto" style="width: 352px;">
+                        <p>$150.00 &nbsp;&nbsp;&nbsp;<span class="text-decoration-line-through">$210.00</span></p>
+                        <h5 class="fs-3 text-black">ADDIDAS NEW HAMMER SOLE <br>FOR SPORTS PERSON</h5>
+                        <div class="w-100">
+                            <a href="#" class="d-flex justify-content-center align-items-center m-auto text-center">
+                                <i class="fa-solid fa-bag-shopping rounded-circle p-2 m-auto me-1"
+                                    style="color: #ffffff; background: linear-gradient(to right, yellow, orange);"></i>
+                                <p class="align-items-center m-auto ms-0" style="font-weight: 500;">
+                                    &nbsp;&nbsp;&nbsp;ADD TO BAG</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands -->
+    <section class="brand-section d-block" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <a href="" class="col single-img p-2">
+                    <img src="https://preview.colorlib.com/theme/karma/img/brand/1.png" alt=""
+                        class="img-fluid d-block mx-auto">
+                </a>
+                <a href="" class="col single-img p-2">
+                    <img src="https://preview.colorlib.com/theme/karma/img/brand/2.png" alt=""
+                        class="img-fluid d-block mx-auto">
+                </a>
+                <a href="" class="col single-img p-2">
+                    <img src="https://preview.colorlib.com/theme/karma/img/brand/3.png" alt=""
+                        class="img-fluid d-block mx-auto">
+                </a>
+                <a href="" class="col single-img p-2">
+                    <img src="https://preview.colorlib.com/theme/karma/img/brand/4.png" alt=""
+                        class="img-fluid d-block mx-auto">
+                </a>
+                <a href="" class="col single-img p-2">
+                    <img src="https://preview.colorlib.com/theme/karma/img/brand/5.png" alt=""
+                        class="img-fluid d-block mx-auto">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals-of-the-week" style="margin-top: 100px;">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <h2 class="fs-1">Deals of the Week</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur. Quas sequi repudiandae, aperiam earum ducimus<br>vero
+                    est facere quo natus voluptatibus.</p>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r1.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r2.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r3.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r4.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r5.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r6.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r7.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r8.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20 product-item">
+                            <div class="d-flex" style="margin-bottom: 30px;">
+                                <a href="">
+                                    <img src="https://preview.colorlib.com/theme/karma/img/r9.jpg" alt="">
+                                </a>
+                                <div style="margin: 10px 0px 10px 15px;" class="text-start">
+                                    <a href="" class="fs-6 product-title" style="font-weight: 400;">BLACK LACE HEELS</a>
+                                    <div class="d-flex mt-1">
+                                        <h6>$189.00</h6>&nbsp;&nbsp;&nbsp;
+                                        <h6 class="text-decoration-line-through" style="color: grey;">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#">
+                        <img src="https://preview.colorlib.com/theme/karma/img/category/c5.jpg" alt=""
+                            class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-area" style="margin-top: 100px;">
+        <div class="container" style="padding-top: 100px;">
+            <div class="row text-white">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h6>About Us</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore dolore magna aliqua.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <h6>Newsletter</h6>
+                    <p>Stay update with our latest</p>
+                        <form class="form-inline">
+                            <div class="d-flex flex-row">
+                                <input class="form-control" placeholder="Enter Email">
+                                <button class="click-btn btn btn-default"><i class="fa-solid fa-right-long"
+                                        aria-hidden="true" style="color: white"></i></button>
+                            </div>
+                        </form>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h6>Instagram Feed</h6>
+                    <ul class="instafeed d-flex flex-wrap">
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i1.jpg" alt=""></li>
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i2.jpg" alt=""></li>
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i3.jpg" alt=""></li>
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i4.jpg" alt=""></li>
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i5.jpg" alt=""></li>
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i6.jpg" alt=""></li>
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i7.jpg" alt=""></li>
+                        <li><img src="https://preview.colorlib.com/theme/karma/img/i8.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <h6>Follow Us</h6>
+                    <p>Let us be social</p>
+                    <div class="footer-social d-flex align-items-center">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap"
+                style="margin-top: 100px; padding-bottom: 100px;">
+                <p class="footer-text m-0">
+                    Copyright ©
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                    is made with <i class="fa-regular fa-heart" aria-hidden="true" style="color: rgb(0, 255, 4);"></i> by <a
+                        href="#" style="color: rgb(8, 132, 248);">Anmol Sharma</a>
+
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Owl Crousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Navbar 
+        // Dropdown
+        $(document).ready(function () {
+            $('.dropdown').hover(function () {
+                $(this).addClass('show');
+                $(this).find('.dropdown-menu').addClass('show');
+            }, function () {
+                $(this).removeClass('show');
+                $(this).find('.dropdown-menu').removeClass('show');
+            });
+        });
+        // sticky navbar
+    </script>
+
+    <!-- Header banner background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Owl Crousel -->
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 1,
+            nav: true,
+            navText: ["<img src='https://preview.colorlib.com/theme/karma/img/product/prev.png'>", "<img src='https://preview.colorlib.com/theme/karma/img/product/next.png'>"],
+            dots: false,
+            autoplay: false,
+            autoplayTimeout: 2000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+        $('.owl-carousel2').owlCarousel({
+            loop: true,
+            margin: 1,
+            nav: false,
+            dots: false,
+            autoplay: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+        
+
+//         function countPTags() {
+//   const pTags = document.getElementsByTagName("p"); // Get all <p> elements
+//   return pTags.length; // Count the number of elements
+// }
+
+// const pTagCount = countPTags();
+// console.log("Number of <p> tags:", pTagCount);
+
+
+
+        
+    </script>
+    
+
+    <!-- Clock -->
+    <script type="text/javascript">
+            (function () {
+                const second = 1000,
+                    minute = second * 60,
+                    hour = minute * 60,
+                    day = hour * 24;
+
+                //I'm adding this section so I don't have to keep updating this pen every year :-)
+                //remove this if you don't need it
+                let today = new Date(),
+                    dd = String(today.getDate()).padStart(2, "0"),
+                    mm = String(today.getMonth() + 1).padStart(2, "0"),
+                    yyyy = today.getFullYear(),
+                    nextYear = yyyy + 1,
+                    dayMonth = "10/30/",
+                    birthday = dayMonth + yyyy;
+
+                today = mm + "/" + dd + "/" + yyyy;
+                if (today > birthday) {
+                    birthday = dayMonth + nextYear;
+                }
+                //end
+
+                const countDown = new Date(birthday).getTime(),
+                    x = setInterval(function () {
+                        const now = new Date().getTime(),
+                            distance = countDown - now;
+
+                        (document.getElementById("days").innerText = Math.floor(distance / day)),
+                            (document.getElementById("hours").innerText = Math.floor(
+                                (distance % day) / hour
+                            )),
+                            (document.getElementById("minutes").innerText = Math.floor(
+                                (distance % hour) / minute
+                            )),
+                            (document.getElementById("seconds").innerText = Math.floor(
+                                (distance % minute) / second
+                            ));
+
+
+                        //do something later when date is reached
+                        if (distance < 0) {
+                            document.getElementById("headline").innerText = "It's my birthday!";
+                            document.getElementById("countdown").style.display = "none";
+                            document.getElementById("content").style.display = "block";
+                            clearInterval(x);
+                        }
+                        //seconds
+                    }, 0);
+            })();
+    </script>
+    from bs4 import BeautifulSoup
+
+with open('your_html_file.html', 'r') as f:
+    soup = BeautifulSoup(f.read(), 'html.parser')
+
+p_tags = soup.find_all('p')  # Find all p tags
+for tag in p_tags:
+    print(tag.text)  # Access the text content of each p tag
+
+
+</body>
+
+</html>

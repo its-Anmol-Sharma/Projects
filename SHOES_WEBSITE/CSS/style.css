@@ -1,0 +1,274 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: grey;
+  font-weight: 400;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+button{
+  background: linear-gradient(to right, rgb(255, 221, 0), orange);
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Navbar */
+
+.nav-link{
+  transition: all 0.3s;
+}
+
+.navbar .nav-item:hover .nav-link{
+  color: orange;
+}
+
+@media screen and (max-width: 768px) {
+  .hide-img{
+      display: none !important;
+  }
+}
+
+.banner-back{
+  background: url('https://preview.colorlib.com/theme/karma/img/banner/banner-bg.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-item{
+  padding: 15px;
+}
+
+.dropdown-item:hover{
+  background-color: orange;
+  color: white !important;
+}
+
+.dropdown-divider{
+  margin: 0;
+}
+
+.active, .dropdown-item{
+  color: orange !important;
+}
+
+/* Features */
+.features i{
+  font-size: 30px;
+  margin-bottom: 20px;
+  transition: 0.3s all ease;
+}
+
+.features .feature-item:hover i{
+  opacity: 0.3;
+}
+
+.features h6{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.features p{
+  margin-top: 0px;
+}
+
+/* Sales */
+.bg-image{
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.hover-overlay{
+  transition: 0.5 all ease-in-out;
+}
+
+.hover-overlay .mask{
+  transition: 0.5 all ease-in-out;
+  opacity: 0;
+}
+.hover-overlay:hover .mask{
+  opacity: 1;
+}
+
+.mask{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+/* Products */
+.products h2{
+  font-size: 42px;
+  color: black !important;
+}
+
+.products h5{
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+
+.product-icons a:hover i{
+  background: linear-gradient(to right, yellow, orange);
+}
+
+.product-icons p{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.product-icons p:last-child{
+  display: none !important;
+  transition: all 0.5s ease;
+}
+
+.product-icons a:hover > p{
+  display: block !important;
+  transition: 5.5s all ease;
+}
+
+/* Deals - CLock */
+.exclusive-deals{
+  height: 130vh;
+}
+
+@media screen and (max-width: 768px){
+  .exclusive-deals{
+      height: 260vh;
+  }
+}
+
+.exclusive-deals .background-img{
+  background: url("https://preview.colorlib.com/theme/karma/img/exclusive.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.time{
+  background-color: white;
+  color: black;
+}
+
+.brand-section a{
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+.brand-section a:hover{
+  opacity: 1;
+}
+
+@media (max-width: 768px){
+  .single-img {
+      min-width: 50%;
+  }
+}
+
+/* Deals of the week section */
+.deals-of-the-week .product-title{
+  color: black;
+  transition: 0.3s;
+}
+.deals-of-the-week .product-item:hover .product-title{
+  color: orange;
+}
+
+/* Footer */
+.footer-area{
+  background-color: #222222;
+}
+
+.footer-area h6{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-area p{
+  margin-bottom: 1rem;
+}
+
+.footer-area .form-inline{
+  display: inline-block;
+  width: 100%;
+}
+
+.form-inline .form-control{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.form-inline .click-btn{
+  color: #fff;
+  border-radius: 0 !important;
+  border: 0;
+  margin: auto;
+  margin-left: 0;
+}
+
+.footer-area input {
+  border: none;
+  width: 80% !important;
+  font-weight: 300;
+  background: #fff;
+  color: #777;
+  padding-left: 20px;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.footer-area .instafeed{
+  margin: -5px;
+}
+
+.footer-area .instafeed li{
+  overflow: hidden;
+  width: 25%;
+}
+
+.footer-area .instafeed li img{
+  margin: 5px;
+}
+
+.footer-area .footer-social a{
+  padding-right: 25px;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-area .footer-social i{
+  color: #cccccc;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-area .footer-social a:hover i{
+  color: orange;
+}
