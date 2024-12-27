@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../Contact/contect.module.css"  
+import MediaLinks from './MediaLinks'
 
 export const Contact = () => {
   return (
@@ -25,6 +26,7 @@ export const Contact = () => {
 
            
         </ul> */}
+        <MediaLinks/>
    </footer>
   )
 }

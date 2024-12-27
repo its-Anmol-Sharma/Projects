@@ -101,6 +101,7 @@ z-index: 1;
 @media screen and ( max-width : 830px){
     .container{
         flex-direction: column-reverse;
+        
     }
     .content{
         align-items: center;
@@ -113,6 +114,7 @@ z-index: 1;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
         height:30vh;
+        margin-top: 1%;
         /* Whenever we reach a keyframe the movement into it  and out of it should be eased   */
     }
     .bottomblur{
@@ -122,6 +124,23 @@ z-index: 1;
         width: 10vw;
         height: 30vw;
         
+    }
+    .buttons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        
+    }
+    .title{
+        font-size: 2.5rem;
+        text-align: center;
+     
+
+    }
+    .discription{
+        font-size: 1.5rem;
+
     }
 
 
