@@ -9,6 +9,7 @@
 
 .title {
   color: var(--color-text);
+  font-family: var(--font-btn);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -52,7 +53,7 @@
 
 .skill p{
   font-size: 25px;
-  font-family: var(--font-roboto);
+  font-family: var(--font-btn);
   font-weight: 500;
 }
 
@@ -79,17 +80,19 @@
 }
 
 .historyItemDetails {
-  font-family: var(--font-roboto);
+  font-family: var(--font-btn);
 }
 
 .historyItemDetails h3 {
   font-size: 30px;
   font-weight: 500;
+  font-family: var(--font-btn);
 }
 
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
+  font-family: var(--font-btn);
 }
 
 .historyItemDetails ul {
@@ -98,6 +101,7 @@
   font-size: 25px;
   list-style-type: disc;
   margin-left: 17px;
+  
 }
 
 @media screen and (max-width: 830px) {
@@ -112,8 +116,7 @@
     flex-direction: row;
     justify-content: center;
   }
-
-  .history {
+  .history {  
     width: 100%;
     gap: 9px;
   }

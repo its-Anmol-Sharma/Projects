@@ -1,0 +1,71 @@
+@import "../../vars.css";
+
+.Container{
+    color: var(--color-text);
+    margin-top:100px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    padding: 58px 10%;
+    gap: 10px;
+}
+.text{
+  margin-right: 40%;
+}
+
+.text h2{
+  font-family: var(--font-btn);
+ font-size:80px;
+ font-weight: 700;
+ letter-spacing: 4px;
+
+}
+.text p{
+  font-family: var(--font-btn);
+    font-size:40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+   }
+   .links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+  
+   }
+
+  .link{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+   .link a{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+   }
+
+  
+@media screen and (max-width: 830px) {
+    .Container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .links {
+      align-items: center;
+    }
+  }

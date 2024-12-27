@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Portfolio",
+      "imageSrc": "../../assets/projects/362405919-ebd341f9-7352-4c55-b01c-859741dbf454.pn",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Shoes Store Website",
+      "imageSrc": "../../assets/projects/362405919-ebd341f9-7352-4c55-b01c-859741dbf454.pn",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Calculator & Todo List",
+      "imageSrc": "../../assets/projects/362405919-ebd341f9-7352-4c55-b01c-859741dbf454.pn",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
