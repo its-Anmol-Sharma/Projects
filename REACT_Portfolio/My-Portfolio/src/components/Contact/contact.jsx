@@ -5,7 +5,7 @@ import MediaLinks from './MediaLinks'
 export const Contact = () => {
   return (
    <footer id="Contact" className={styles.Container}>
-    <div className={styles.text }>
+    <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel Free to reach out</p>
         </div>
